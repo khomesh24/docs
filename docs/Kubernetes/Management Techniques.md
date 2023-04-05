@@ -1,4 +1,5 @@
 # Kubernetes Management Techniques
+----------------------------------
 
 ## Imperative Commands 
 

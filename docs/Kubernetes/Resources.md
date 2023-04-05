@@ -1,4 +1,5 @@
 # Core Kubernetes Concept
+-------------------------
 
 ## Pods
 
@@ -56,6 +57,30 @@ We can also use `kubectl scale` to modify replicas.
 
 `kubectl scale --replicas <num> <replicationset resource>`
 
+## DaemonSet
+
+DaemonSet is similar to ReplicaSet but it will maintain one replica on each nodes. When a node is added to cluster DaemonSet will create a replica on in and remove when node is deleted. This is mainly use for monitering and logging purposes. It used NodeAffinity to schedule and pods on node. 
+
+```yaml
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: elasticsearch
+  labels:
+    app: monitering
+spec:
+  template:
+    metadata:
+      labels:
+        app: pod-fluentd
+    spec:
+      containers:
+        - name: fluentd
+          image: fluentd
+  selector:
+    matchLabels:
+      app: pod-fluentd
+```
 
 ## Deployment
 
