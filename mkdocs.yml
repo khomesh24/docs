@@ -1,7 +1,8 @@
 site_name: Khomesh's Docs
+repo_name: khoemsh24/docs
+repo_url: https://github.com/khomesh24/docs
 theme:
   name: material
-
   features:
     - navigation.tabs
     - navigation.sections
