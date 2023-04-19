@@ -43,7 +43,7 @@ theme:
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
-  - pymdownx.inlinehilite
+  - pymdownx.inlinehilite   
   - pymdownx.snippets
   - admonition
   - pymdownx.arithmatex:
@@ -53,3 +53,18 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+
+# Sorting the articles
+nav:
+  - 'Home': index.md
+  - 'Kubernetes':
+      - 'Kubernetes/Architecture.md'
+      - 'Kubernetes/Resources.md'
+      - 'Kubernetes/Container scheduling.md'
+      - 'Kubernetes/Managing scheduler.md'
+      - 'Kubernetes/Management Techniques.md'
+      - 'Kubernetes/Managing Applications.md'
+      - 'Kubernetes/Static_pods.md'
+      - 'Kubernetes/Commands.md'
+  - 'General Articles':
+      - 'general article/Setup VNC.md'
