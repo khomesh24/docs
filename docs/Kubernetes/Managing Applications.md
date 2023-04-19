@@ -22,6 +22,9 @@ Different deployment stratagies we can use are below:
 - **Best-effort controlled rollout**: specifies a “max unavailable” parameter which indicates what percentage of existing pods can be unavailable during the upgrade, enabling the rollout to happen much more quickly.
 - **Canary deployment**: uses a progressive delivery approach, with one version of the application serving most users, and another, newer version serving a small pool of test users. The test deployment is rolled out to more users if it is successful.
 
+
+There is also a very popular strategy called **Blue_Green**. Refer [doc](https://kubernetes.io/blog/2018/04/30/zero-downtime-deployment-kubernetes-jenkins/#blue-green-deployment) for more detailed explaination.
+
 ## Commands vs Arguments
 
 Command override the entrypoint define in the container image and arguments is use to override CMD.
