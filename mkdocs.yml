@@ -70,3 +70,4 @@ nav:
   - 'General Articles':
       - 'general article/Setup VNC.md'
       - 'general article/VM from Cloud image.md'
+      - 'general article/terraform.md'
