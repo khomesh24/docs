@@ -71,3 +71,4 @@ nav:
       - 'general article/Setup VNC.md'
       - 'general article/VM from Cloud image.md'
       - 'general article/terraform.md'
+      - 'general article/Minikube.md'
