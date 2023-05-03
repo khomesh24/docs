@@ -67,6 +67,9 @@ nav:
       - 'Kubernetes/Managing Applications.md'
       - 'Kubernetes/Static_pods.md'
       - 'Kubernetes/Commands.md'
+  - 'Openshift':
+      - 'Openshift/Managing Identify Provider.md'
+      - 'Openshift/RBAC.md'
   - 'General Articles':
       - 'general article/Setup VNC.md'
       - 'general article/VM from Cloud image.md'
