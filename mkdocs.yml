@@ -67,6 +67,7 @@ nav:
       - 'Kubernetes/Managing Applications.md'
       - 'Kubernetes/Static_pods.md'
       - 'Kubernetes/Commands.md'
+      - 'Kubernetes/Storage.md'
   - 'Openshift':
       - 'Openshift/Managing Identify Provider.md'
       - 'Openshift/RBAC.md'
@@ -75,3 +76,4 @@ nav:
       - 'general article/VM from Cloud image.md'
       - 'general article/terraform.md'
       - 'general article/Minikube.md'
+      - 'general article/prometheus-grafana.md'
