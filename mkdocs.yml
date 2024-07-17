@@ -71,6 +71,9 @@ nav:
   - 'Openshift':
       - 'Openshift/Managing Identify Provider.md'
       - 'Openshift/RBAC.md'
+  - 'Helm':
+      - 'Helm/helm.md'
+      - 'Helm/helm_dependency.md'
   - 'General Articles':
       - 'general article/Setup VNC.md'
       - 'general article/VM from Cloud image.md'
